@@ -3,3 +3,5 @@ Weight=float(input("Entrez votre Poids en Kg: "))
 
 Height = Height/100
 BMI=Weight/(Height*Height)
+
+print("votre indice de masse corporelle est: ",BMI)
