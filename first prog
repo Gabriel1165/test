@@ -5,3 +5,5 @@ Height = Height/100
 BMI=Weight/(Height*Height)
 
 print("votre indice de masse corporelle est: ",BMI)
+
+if(BMI>0):
