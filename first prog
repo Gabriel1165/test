@@ -8,3 +8,4 @@ print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
     if(BMI<=16):
+        print("vous souffrez d'une grave insuffisance pondérale")
