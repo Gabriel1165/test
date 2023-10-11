@@ -11,3 +11,4 @@ if(BMI>0):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
     elif(BMI<=18.5):
+        print("Vous êtes en sous-poids")
