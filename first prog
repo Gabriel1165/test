@@ -14,3 +14,6 @@ if(BMI>0):
         print("Vous êtes en sous-poids")
 
     elif(BMI<=25):
+        print("Jurer pas bien !")
+
+    elif(BMI<=0):
