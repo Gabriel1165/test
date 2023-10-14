@@ -17,3 +17,7 @@ if(BMI>0):
         print("Jurer pas bien !")
 
     elif(BMI<=0):
+        print("Vous êtes en surpoids")
+
+    else: 
+        print("vous êtes gravement en surpoids")
