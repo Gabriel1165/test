@@ -21,3 +21,7 @@ if(BMI>0):
 
     else: 
         print("vous êtes gravement en surpoids")
+
+print("FIN: ",BMI)
+
+Height = Height/1000
