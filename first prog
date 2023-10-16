@@ -25,3 +25,7 @@ if(BMI>0):
 print("FIN: ",BMI)
 
 Height = Height/1000
+
+if(Height > 0.5):
+    try:
+        Height++
