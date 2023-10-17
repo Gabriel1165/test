@@ -29,3 +29,5 @@ Height = Height/1000
 if(Height > 0.5):
     try:
         Height++
+    catch e:
+        print("error : height invalide")
