@@ -30,4 +30,5 @@ if(Height > 0.5):
     try:
         Height++
     catch e:
+        print(e)
         print("error : height invalide")
