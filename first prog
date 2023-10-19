@@ -32,3 +32,5 @@ if(Height > 0.5):
     catch e:
         print(e)
         print("error : height invalide")
+
+Weight = 99
