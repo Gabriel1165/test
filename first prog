@@ -35,3 +35,6 @@ if(Height > 0.5):
         print("error : height invalide")
 
 Weight = 10
+
+if(Weight > 0):
+    print("Valide")
