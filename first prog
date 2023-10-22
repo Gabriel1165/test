@@ -38,3 +38,5 @@ Weight = 10
 
 if(Weight > 0):
     print("Valide")
+
+plateau = [" " for _ in range(99)]
