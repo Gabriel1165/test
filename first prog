@@ -40,3 +40,8 @@ if(Weight > 0):
     print("Valide")
 
 plateau = [" " for _ in range(99)]
+
+def CreatePlateau(p):
+    print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
+    print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
+    print(" " + p[6] + " | " + p[7] + " | " + p[8] + " ")
