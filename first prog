@@ -50,3 +50,7 @@ def CreatePlateau2(p):
 
 def CreatePlateau3(p):
     print(" " + p[10] + " | " + p[11] + " | " + p[12] + " ")
+
+bot_in_action = True
+was_in_position = False
+startup_info = False
