@@ -23,7 +23,6 @@ if(BMI>0):
     else: 
         print("vous êtes gravement en surpoids")
 
-print("FIN: ",BMI)
 
 if(Height > 0.5):
     try:
@@ -54,3 +53,7 @@ def CreatePlateau3(p):
 bot_in_action = True
 was_in_position = False
 startup_info = False
+
+main_order = False
+stoploss_order = False
+takeprofit_order = False
