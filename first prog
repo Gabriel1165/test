@@ -1,3 +1,6 @@
+import pandas
+import time
+
 Height=float(input("Entrez votre taille en centimètres: "))
 Weight=float(input("Entrez votre Poids en Kg: "))
 
@@ -45,10 +48,6 @@ def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[7] + " | " + p[8] + " ")
-
-
-def CreatePlateau3(p):
-    print(" " + p[10] + " | " + p[11] + " | " + p[12] + " ")
 
 bot_in_action = True
 was_in_position = False
