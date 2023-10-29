@@ -56,3 +56,6 @@ startup_info = False
 main_order = False
 stoploss_order = False
 takeprofit_order = False
+
+stoploss_value = 100
+stoploss_size = 1/100
