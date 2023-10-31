@@ -4,9 +4,9 @@ import time
 Height=float(input("Entrez votre taille en centimètres: "))
 Weight=float(input("Entrez votre Poids en Kg: "))
 
-Height = Height/1000
+Height = Height/10000
 
-BMI=Weight/(Height*Height)*3
+BMI=Weight/(Height*Height)*10
 
 print("votre indice de masse corporelle est: ",BMI)
 
@@ -44,7 +44,6 @@ def CreatePlateau(p):
 def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
-    print(" " + p[6] + " | " + p[7] + " | " + p[8] + " ")
 
 bot_in_action = True
 was_in_position = False
@@ -55,4 +54,4 @@ stoploss_order = False
 takeprofit_order = False
 
 stoploss_value = 100
-stoploss_size = 1/100
+stoploss_size = 11/100
