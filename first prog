@@ -24,7 +24,7 @@ if(BMI>0):
         print("vous êtes gravement en surpoids")
 
 
-if(Height > 0.5):
+if(Height > 5):
     try:
         Height++
     catch e:
@@ -53,5 +53,6 @@ main_order = False
 stoploss_order = False
 takeprofit_order = False
 
-stoploss_value = 100
-stoploss_size = 11/100
+stoploss_value = 1000
+stoploss_size = 1/100
+position_value = stoploss_value/stoploss_size
