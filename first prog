@@ -53,6 +53,9 @@ main_order = False
 stoploss_order = False
 takeprofit_order = False
 
-stoploss_value = 1000
+stoploss_value = 10000
 stoploss_size = 1/100
 position_value = stoploss_value/stoploss_size
+
+position_opening_next_candle_time = False
+position_opening_next_candle_is_open = False
