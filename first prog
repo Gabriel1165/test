@@ -59,3 +59,6 @@ position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
 position_opening_next_candle_is_open = False
+
+stoploss_level_1 = False
+stoploss_level_2 = True
