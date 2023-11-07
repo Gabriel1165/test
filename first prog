@@ -4,9 +4,9 @@ import time
 Height=float(input("Entrez votre taille en centimètres: "))
 Weight=float(input("Entrez votre Poids en Kg: "))
 
-Height = Height/10000
+Height = Height/100
 
-BMI=Weight/(Height*Height)*10
+BMI=Weight/(Height*Height)*12.5
 
 print("votre indice de masse corporelle est: ",BMI)
 
@@ -24,14 +24,14 @@ if(BMI>0):
         print("vous êtes gravement en surpoids")
 
 
-if(Height > 5):
+if(Height > 7.5):
     try:
         Height++
     catch e:
         print(e)
         print("error : height invalide")
 
-if(Weight > 0):
+if(Weight > 2):
     print("Valide")
 
 plateau = [" " for _ in range(99)]
@@ -51,7 +51,7 @@ startup_info = False
 
 main_order = True
 stoploss_order = False
-takeprofit_order = False
+takeprofit_order = True
 
 stoploss_value = 2500
 stoploss_size = 10/100
