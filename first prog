@@ -1,23 +1,23 @@
 import pandas
 import time
 
-Height=float(input("Entrez votre taille en centimètres: "))
-Weight=float(input("Entrez votre Poids en Kg: "))
+Height=float(input("Entrez votre taille en centimètres s'il vous plait : "))
+Weight=float(input("Entrez votre Poids en Kg s'il vous plait : "))
 
 Height = Height/100
 
-BMI=Weight/(Height*Height)*12.5
+BMI=Weight/(Height*Height)*12.567
 
 print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
-    if(BMI<=16):
+    if(BMI<=45):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
-    elif(BMI<=18.5):
+    elif(BMI<=22):
         print("Vous êtes en sous-poids")
 
-    elif(BMI<=0):
+    elif(BMI<=4):
         print("Vous êtes en surpoids")
 
     else: 
