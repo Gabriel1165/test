@@ -70,3 +70,5 @@ buy_level_max = buy_level_min + (10/100) * buy_level_min
 
 sell_level_min = 35000
 sell_level_max = sell_level_min - (3/100) * sell_level_min
+
+print(f"\nDémarrage du robot BTC ({time.strftime('%X')})\n")
