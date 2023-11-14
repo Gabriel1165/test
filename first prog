@@ -53,8 +53,8 @@ main_order = True
 stoploss_order = False
 takeprofit_order = True
 
-stoploss_value = 2750
-stoploss_size = 9/100
+stoploss_value = 2225
+stoploss_size = 2.4/100
 position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
@@ -79,3 +79,4 @@ while (bot_in_action == True) :
 
         unix_timestamp_for_21 = int(time.time())-(21*5*60)
         response_kline = session.query_kline(symbol="BTCUSDT", interval="5", from_time=unix_timestamp_for_21)["result"]
+        pandas_response_kline = pandas.DataFrame(response_kline)
