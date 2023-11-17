@@ -53,17 +53,17 @@ main_order = True
 stoploss_order = False
 takeprofit_order = True
 
-stoploss_value = 2225
-stoploss_size = 2.4/100
+stoploss_value = 1000
+stoploss_size = 0.375/100
 position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
 position_opening_next_candle_is_open = False
 
-stoploss_level_1 = False
+stoploss_level_1 = True
 stoploss_level_2 = True
 
-takeprofit_level = 50
+takeprofit_level = 5000
 
 buy_level_min = 25999
 buy_level_max = buy_level_min + (3/100) * buy_level_min
@@ -83,3 +83,4 @@ while (bot_in_action == True) :
 
         pandas_response_kline_close = pandas_response_kline["close"]
         pandas_response_kline_high = pandas_response_kline["high"]
+        pandas_response_kline_low = pandas_response_kline["low"]
