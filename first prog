@@ -44,13 +44,15 @@ def CreatePlateau(p):
 def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
+    print(" " + p[6] + " | " + p[9] + " | " + p[7] + " ")
+    print(" " + p[10] + " | " + p[12] + " | " + p[16] + " ")
 
 bot_in_action = True
 was_in_position = False
 startup_info = False
 
 main_order = True
-stoploss_order = False
+stoploss_order = True
 takeprofit_order = True
 
 stoploss_value = 1000
