@@ -11,20 +11,20 @@ BMI=Weight/(Height*Height)*12.567
 print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
-    if(BMI<=45):
+    if(BMI<=5):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
-    elif(BMI<=22):
+    elif(BMI<=10):
         print("Vous êtes en sous-poids")
 
-    elif(BMI<=4):
+    elif(BMI<=20):
         print("Vous êtes en surpoids")
 
     else: 
         print("vous êtes gravement en surpoids")
 
 
-if(Height > 7.5):
+if(Height > 85):
     try:
         Height++
     catch e:
@@ -55,8 +55,8 @@ main_order = True
 stoploss_order = True
 takeprofit_order = True
 
-stoploss_value = 1000
-stoploss_size = 0.375/100
+stoploss_value = 10000
+stoploss_size = 0.55/100
 position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
