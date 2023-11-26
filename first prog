@@ -40,6 +40,7 @@ def CreatePlateau(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[7] + " | " + p[8] + " ")
+    print(" " + p[67] + " | " + p[78] + " | " + p[89] + " ")
 
 def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
@@ -55,8 +56,8 @@ main_order = True
 stoploss_order = True
 takeprofit_order = True
 
-stoploss_value = 10000
-stoploss_size = 0.55/100
+stoploss_value = 10744
+stoploss_size = 0.59/100
 position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
