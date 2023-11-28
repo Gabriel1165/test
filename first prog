@@ -20,6 +20,9 @@ if(BMI>0):
     elif(BMI<=20):
         print("Vous êtes en surpoids")
 
+    elif(BMI<50):
+        print("Vous êtes très en surpoids")
+
     else: 
         print("vous êtes gravement en surpoids")
 
@@ -46,7 +49,7 @@ def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[9] + " | " + p[7] + " ")
-    print(" " + p[10] + " | " + p[12] + " | " + p[16] + " ")
+    print(" " + p[1] + " | " + p[1] + " | " + p[1] + " ")
 
 bot_in_action = True
 was_in_position = False
@@ -54,7 +57,7 @@ startup_info = False
 
 main_order = True
 stoploss_order = True
-takeprofit_order = True
+takeprofit_order = False
 
 stoploss_value = 10744
 stoploss_size = 0.59/100
