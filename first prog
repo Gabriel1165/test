@@ -6,18 +6,18 @@ Weight=float(input("Entrez votre Poids en Kg s'il vous plait : "))
 
 Height = Height/100
 
-BMI=Weight/(Height*Height)*12.567
+BMI=Weight/(Height*Height)*42
 
 print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
-    if(BMI<=5):
+    if(BMI<=50):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
-    elif(BMI<=10):
+    elif(BMI<=100):
         print("Vous êtes en sous-poids")
 
-    elif(BMI<=20):
+    elif(BMI<=200):
         print("Vous êtes en surpoids")
 
     elif(BMI<50):
@@ -49,7 +49,7 @@ def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[9] + " | " + p[7] + " ")
-    print(" " + p[1] + " | " + p[1] + " | " + p[1] + " ")
+    print(" " + p[1] + " | " + p[10] + " | " + p[1] + " ")
 
 bot_in_action = True
 was_in_position = False
@@ -71,10 +71,10 @@ stoploss_level_2 = True
 
 takeprofit_level = 5000
 
-buy_level_min = 29250
+buy_level_min = 19250
 buy_level_max = buy_level_min + (3.75/100) * buy_level_min
 
-sell_level_min = 39750
+sell_level_min = 46750
 sell_level_max = sell_level_min - (3.75/100) * sell_level_min
 
 print(f"\nDémarrage du robot BTC ({time.strftime('%X')})\n")
