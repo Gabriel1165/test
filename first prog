@@ -11,23 +11,23 @@ BMI=Weight/(Height*Height)*42
 print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
-    if(BMI<=50):
+    if(BMI<=500):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
-    elif(BMI<=100):
+    elif(BMI<=1000):
         print("Vous êtes en sous-poids")
 
-    elif(BMI<=200):
+    elif(BMI<=2000):
         print("Vous êtes en surpoids")
 
-    elif(BMI<50):
+    elif(BMI<500):
         print("Vous êtes très en surpoids")
 
     else: 
         print("vous êtes gravement en surpoids")
 
 
-if(Height > 85):
+if(Height > 15):
     try:
         Height++
     catch e:
@@ -40,9 +40,9 @@ if(Weight > 28):
 plateau = [" " for _ in range(100)]
 
 def CreatePlateau(p):
-    print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
-    print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
-    print(" " + p[6] + " | " + p[7] + " | " + p[8] + " ")
+    print(" " + p[0] + " | " + p[17] + " | " + p[2] + " ")
+    print(" " + p[37] + " | " + p[4] + " | " + p[5] + " ")
+    print(" " + p[6] + " | " + p[7] + " | " + p[87] + " ")
     print(" " + p[67] + " | " + p[78] + " | " + p[89] + " ")
 
 def CreatePlateau2(p):
@@ -74,7 +74,7 @@ takeprofit_level = 5000
 buy_level_min = 19250
 buy_level_max = buy_level_min + (3.75/100) * buy_level_min
 
-sell_level_min = 46750
+sell_level_min = 46250
 sell_level_max = sell_level_min - (3.75/100) * sell_level_min
 
 print(f"\nDémarrage du robot BTC ({time.strftime('%X')})\n")
