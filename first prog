@@ -4,7 +4,7 @@ import time
 Height=float(input("Entrez votre taille en centimètres s'il vous plait : "))
 Weight=float(input("Entrez votre Poids en Kg s'il vous plait : "))
 
-Height = Height/100
+Height = Height/1000
 
 BMI=Weight/(Height*Height)*42
 
@@ -49,7 +49,7 @@ def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
     print(" " + p[3] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[9] + " | " + p[7] + " ")
-    print(" " + p[1] + " | " + p[10] + " | " + p[1] + " ")
+    print(" " + p[11] + " | " + p[10] + " | " + p[11] + " ")
 
 bot_in_action = True
 was_in_position = False
@@ -74,7 +74,7 @@ takeprofit_level = 5000
 buy_level_min = 19200
 buy_level_max = buy_level_min + (3.95/100) * buy_level_min
 
-sell_level_min = 46200
+sell_level_min = 53600
 sell_level_max = sell_level_min - (3.95/100) * sell_level_min
 
 print(f"\nDémarrage du robot BTC ({time.strftime('%X')})\n")
