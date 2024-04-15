@@ -11,16 +11,16 @@ BMI=Weight/(Height*Height)*42
 print("votre indice de masse corporelle est: ",BMI)
 
 if(BMI>0):
-    if(BMI<=500):
+    if(BMI<=5000):
         print("vous souffrez d'une grave insuffisance pondérale")    
 
-    elif(BMI<=1000):
+    elif(BMI<=10000):
         print("Vous êtes en sous-poids")
 
-    elif(BMI<=2000):
+    elif(BMI<=20000):
         print("Vous êtes en surpoids")
 
-    elif(BMI<500):
+    elif(BMI<50000):
         print("Vous êtes très en surpoids")
 
     else: 
@@ -43,7 +43,6 @@ def CreatePlateau(p):
     print(" " + p[0] + " | " + p[17] + " | " + p[2] + " ")
     print(" " + p[37] + " | " + p[4] + " | " + p[5] + " ")
     print(" " + p[6] + " | " + p[7] + " | " + p[87] + " ")
-    print(" " + p[67] + " | " + p[78] + " | " + p[89] + " ")
 
 def CreatePlateau2(p):
     print(" " + p[0] + " | " + p[1] + " | " + p[2] + " ")
@@ -64,10 +63,10 @@ stoploss_size = 0.59/100
 position_value = stoploss_value/stoploss_size
 
 position_opening_next_candle_time = False
-position_opening_next_candle_is_open = False
+position_opening_next_candle_is_open = True
 
 stoploss_level_1 = True
-stoploss_level_2 = True
+stoploss_level_2 = False
 
 takeprofit_level = 5000
 
